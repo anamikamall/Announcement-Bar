@@ -1,0 +1,36 @@
+a {
+    cursor: pointer;
+}
+
+.flash-infos {
+    padding: 6px 10px;
+    background: #333;
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+
+}
+
+.flash-info {
+    padding: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.flash-info svg {
+    fill: #FFF;
+    margin-right: 7px;
+    width: auto;
+    height: 28px;
+}
+
+.flash-info.truck svg {
+    height: 30px;
+}
+
+.free-truck svg {
+    width: 45px;
+}
